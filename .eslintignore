@@ -1,4 +1,0 @@
-**/node_modules/*
-**/out/*
-**/.next/*
-/packages/lib/shopify/admin-api.ts

@@ -1,20 +1,20 @@
 {
-  "name": "fanhub",
+  "name": "sandbox-vercel-deploy-error",
   "version": "1.0.0",
-  "description": "fanhubのmonorepoです",
+  "description": "",
   "main": "",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feedforce/fanhub.git"
+    "url": "git+https://github.com/kogai/andbox-vercel-deploy-error.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/feedforce/fanhub/issues"
+    "url": "https://github.com/kogai/andbox-vercel-deploy-error/issues"
   },
-  "homepage": "https://github.com/feedforce/fanhub#readme",
+  "homepage": "https://github.com/kogai/andbox-vercel-deploy-error#readme",
   "dependencies": {
     "isomorphic-fetch": "2.2.1",
     "next": "9.5.1",
@@ -38,20 +38,10 @@
     "clean-webpack-plugin": "3.0.0",
     "copy-webpack-plugin": "6.0.3",
     "css-loader": "4.2.0",
-    "eslint": "7.6.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-react": "7.20.5",
-    "eslint-plugin-react-hooks": "4.0.8",
     "file-loader": "6.0.0",
     "html-webpack-plugin": "4.3.0",
-    "jest": "26.2.2",
-    "jest-watch-typeahead": "0.5.0",
-    "lint-staged": "10.0.10",
     "mini-css-extract-plugin": "0.9.0",
-    "nock": "13.0.4",
     "optimize-css-assets-webpack-plugin": "5.0.3",
-    "prettier": "2.0.5",
     "react-docgen-typescript-loader": "3.7.2",
     "serverless": "1.77.1",
     "serverless-domain-manager": "4.2.0",

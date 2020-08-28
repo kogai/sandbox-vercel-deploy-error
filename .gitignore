@@ -12,7 +12,6 @@ yarn-error.log*
 
 # vercel
 .vercel
-/packages/lib/shopify/admin-api.ts
 /packages/tsconfig.json
 /packages/next-env.d.ts
 /storybook-static
