@@ -1,6 +1,9 @@
 module.exports = {
-  target: "serverless",
+  // target: "serverless",
+  publicRuntimeConfig: {
+    greeting: "Hello! for public",
+  },
   serverRuntimeConfig: {
-    greeting: "Hello!",
+    greeting: "Hello! for server",
   },
 };

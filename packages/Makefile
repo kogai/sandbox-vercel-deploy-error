@@ -5,13 +5,11 @@ $(PWD)/$(PKG)/%: $(PWD)/%
 
 configs: $(PWD)/$(PKG)/tsconfig.json  $(PWD)/$(PKG)/next-env.d.ts
 
-lib/shopify/admin-api.ts:
-	npx graphql-codegen
+start: configs
+	npx next start
 
-run: configs lib/shopify/admin-api.ts
+run: configs
 	npx next dev
 
 build:
 	npx next build
-	# cp $(CURDIR)/next.config.js $(PWD)/next.config.js
-	ls -lah $(PWD)
