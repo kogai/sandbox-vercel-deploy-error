@@ -13,3 +13,5 @@ run: configs lib/shopify/admin-api.ts
 
 build:
 	npx next build
+	cp $(CURDIR)/next.config.js $(PWD)/next.config.js
+	ls -lah $(PWD)
