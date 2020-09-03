@@ -12,6 +12,6 @@ yarn-error.log*
 
 # vercel
 .vercel
-/packages/tsconfig.json
-/packages/next-env.d.ts
+/packages/**/tsconfig.json
+/packages/**/next-env.d.ts
 /storybook-static

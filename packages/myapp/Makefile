@@ -12,4 +12,5 @@ run: configs
 	npx next dev
 
 build:
+	npm i
 	npx next build

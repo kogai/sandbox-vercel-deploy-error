@@ -1,12 +1,9 @@
 {
-  "name": "sandbox-vercel-deploy-error",
+  "name": "pkg",
   "version": "1.0.0",
   "description": "",
   "main": "",
   "scripts": {},
-  "workspaces": [
-    "packages/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kogai/andbox-vercel-deploy-error.git"
