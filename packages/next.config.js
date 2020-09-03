@@ -1,5 +1,5 @@
 module.exports = {
-  target: "serverless",
+  // target: "serverless",
   // target: "experimental-serverless-trace",
   publicRuntimeConfig: {
     greeting: "Hello! for public",
